@@ -8,3 +8,4 @@ jre_linux
 jre_win
 logs
 *.tar.gz
+*.7z
