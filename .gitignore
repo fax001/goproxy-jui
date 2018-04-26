@@ -1,0 +1,10 @@
+test
+nbproject/private
+build
+dist
+certs
+data
+jre_linux
+jre_win
+logs
+*.tar.gz

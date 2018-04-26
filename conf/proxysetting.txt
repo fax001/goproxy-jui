@@ -1,0 +1,7 @@
+example:
+set all proxy
+proxysetting.exe 127.0.0.1:8080
+set protocol proxy
+proxysetting.exe http=127.0.0.1:8080 https=127.0.0.1:8080
+
+
