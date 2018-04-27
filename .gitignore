@@ -9,3 +9,4 @@ jre_win
 logs
 *.tar.gz
 *.7z
+/src/private/
