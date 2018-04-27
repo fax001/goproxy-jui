@@ -51,7 +51,7 @@ public class Main extends PFrame {
 
                         },
                         new String [] {
-                                "名称", "命令参数", "记录日志", "证书.crt", "证书.key", "状态", "自动启动", "日志", "操作", "编辑", "null"
+                                "名称", "命令参数", "记录日志", "证书.crt", "证书.key", "状态", "自动启动", "日志", "操作", "编辑", ""
                         }
                 ) {
                         Class[] types = new Class [] {
@@ -77,8 +77,9 @@ public class Main extends PFrame {
                 });
                 jScrollPane1.setViewportView(jTable1);
                 if (jTable1.getColumnModel().getColumnCount() > 0) {
-                        jTable1.getColumnModel().getColumn(10).setResizable(false);
+                        jTable1.getColumnModel().getColumn(10).setMinWidth(0);
                         jTable1.getColumnModel().getColumn(10).setPreferredWidth(0);
+                        jTable1.getColumnModel().getColumn(10).setMaxWidth(0);
                 }
 
                 javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
