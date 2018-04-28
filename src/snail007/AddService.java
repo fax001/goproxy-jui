@@ -253,7 +253,7 @@ public class AddService extends PFrame {
 		if (row >= 0) {
 			item.file = oldBean.file;
 		} else {
-			String filename = "conf/" + String.valueOf(System.currentTimeMillis()) + ".json";
+			String filename = "data/" + String.valueOf(System.currentTimeMillis()) + ".json";
 			item.file = new File(filename);
 		}
 		if (Utils.saveBean(item)) {
