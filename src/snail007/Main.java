@@ -20,7 +20,7 @@ public class Main extends PFrame {
 	public Main() {
 		super();
 		initComponents();
-		this.setTitle(this.getTitle()+" (sdk "+ProxyJNI.PLibrary.INSTANCE.Version()+")");
+		this.setTitle(this.getTitle()+" (sdk v"+ProxyJNI.PLibrary.INSTANCE.Version()+")");
 		Utils.init(this);
 		new MySystemTray(this).setTray();
 		
