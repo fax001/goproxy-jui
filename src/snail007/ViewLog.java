@@ -36,7 +36,6 @@ public class ViewLog extends PFrame {
 		if (logFile != null) {
 			jLabel1.setText("日志文件:" + logFile.getAbsolutePath());
 		}
-		this.setIconImage(new ImageIcon("lib/logo.png").getImage());
 		showLog();
 	}
 
