@@ -11,5 +11,7 @@ public class ProxyJNI {
 		String Start(String id, String args);
 
 		void Stop(String id);
+
+		String Version();
 	}
 }

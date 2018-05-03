@@ -9,6 +9,7 @@ import javax.swing.table.DefaultTableModel;
 import jodd.io.FileUtil;
 import jodd.json.JsonParser;
 import snail007.bean.ServiceBean;
+import snail007.sdk.ProxyJNI;
 
 public class Main extends PFrame {
 
@@ -19,6 +20,7 @@ public class Main extends PFrame {
 	public Main() {
 		super();
 		initComponents();
+		this.setTitle(this.getTitle()+" (sdk "+ProxyJNI.PLibrary.INSTANCE.Version()+")");
 		Utils.init(this);
 		new MySystemTray(this).setTray();
 		
